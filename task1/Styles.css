@@ -16,13 +16,13 @@
     padding-top:20px
 }
 
-.form-section > input, select{
+.form-section > input, select, textarea{
     outline:none;
     padding:5px;
     margin-top:5px
 }
 
-.form-section > button {
+.form-section > button, input[type="submit"] {
     width:fit-content;
     background-color:black;
     color:white;
@@ -30,4 +30,11 @@
     border:none;
     padding:10px;
     margin:10px auto;
+    font-family: sans-serif ;
+}
+
+.rating{
+    display:block;
+    font-family: sans-serif;
+
 }
